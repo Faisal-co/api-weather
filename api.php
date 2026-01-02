@@ -29,7 +29,7 @@ $data = $data['current'];
     echo '<h3 style="color: #fff;">'.$_POST['search']. ' Current Temperature is : ' . $data['temp_c']. ' °C'.'</h3>';
     echo "<h1 style='color: #ee7e15ff;'>Other Climate Details of " .$_POST['search']. " :</h1>";
      echo '<h3 style="color: #fff;">'. ' Current Wind speed is : ' . $data['wind_kph']. ' KPH'.'</h3>';
-    echo '<h3 style="color: #fff;">'. ' Current Wind direction is : ' . $data['wind_degree']. ' ° angle'.'</h3>';
+    echo '<h3 style="color: #fff;">'. ' Current Wind direction is : ' . $data['wind_degree']. ' ° : Ref (North is 0° / 360°)'.'</h3>';
     echo '<h3 style="color: #fff;">'. ' Current Humidity is : ' . $data['humidity']. ' RH'.'</h3>';
     echo '<h3 style="color: #fff;">'. 'Cloudy : ' . $data['cloud']. '%'.'</h3>';
 // To fetch array in loop if same key having different values is not equally in numbers of total repetion of loop then same key,values will be repeatedly shown in result.
